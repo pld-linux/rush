@@ -1,12 +1,12 @@
 Summary:	restricted user shell
 Summary(pl.UTF-8):	powłoka z ograniczeniami
 Name:		rush
-Version:	1.5
+Version:	1.6
 Release:	1
 License:	GPL v3+
 Group:		Applications/Shells
 Source0:	http://ftp.gnu.org/gnu/rush/%{name}-%{version}.tar.gz
-# Source0-md5:	3911e476bf04ca85c948de5cd3b9fed3
+# Source0-md5:	32087472928220d0009fd65670d42741
 URL:		http://www.gnu.org/software/rush/
 BuildRequires:	autoconf
 BuildRequires:	automake
