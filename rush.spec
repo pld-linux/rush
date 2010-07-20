@@ -1,12 +1,12 @@
 Summary:	restricted user shell
 Summary(pl.UTF-8):	powłoka z ograniczeniami
 Name:		rush
-Version:	1.6
+Version:	1.7
 Release:	1
 License:	GPL v3+
 Group:		Applications/Shells
 Source0:	http://ftp.gnu.org/gnu/rush/%{name}-%{version}.tar.gz
-# Source0-md5:	32087472928220d0009fd65670d42741
+# Source0-md5:	01c42be5359d2c31e2145eb112cd94cf
 URL:		http://www.gnu.org/software/rush/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -26,12 +26,12 @@ virtual memory, CPU time, etc. on a per-user basis.
 %description -l pl.UTF-8
 GNU Rush to ograniczona powłoka użytkownika, zaprojektowana dla
 systemów udostępnijących ograniczony dostęp do zasobów, jak np.
-savannah.gnu.org. Główny program, rush, jest ustawiony jako
-domyślna powłoka dla użytkowników mających tylko zdalny dostep do
-maszyny. Za pomocą elastycznego pliku konfiguracyjnego, GNU Rush
-pozwala administratorowi na kompletną kontrolę nad poleceniami
-wywoływanymi przez użytkownika oraz pozwala na okreslenie limitów
-zasobów, takich jak pamięć wirtualna, czas pracy procesora, itp.
+savannah.gnu.org. Główny program, rush, jest ustawiony jako domyślna
+powłoka dla użytkowników mających tylko zdalny dostep do maszyny. Za
+pomocą elastycznego pliku konfiguracyjnego, GNU Rush pozwala
+administratorowi na kompletną kontrolę nad poleceniami wywoływanymi
+przez użytkownika oraz pozwala na okreslenie limitów zasobów, takich
+jak pamięć wirtualna, czas pracy procesora, itp.
 
 %prep
 %setup -q
