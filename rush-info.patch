@@ -1,0 +1,18 @@
+--- rush-2.2/doc/rush.texi.orig	2022-01-02 08:58:10.000000000 +0100
++++ rush-2.2/doc/rush.texi	2022-01-19 21:15:34.598243928 +0100
+@@ -25,11 +25,11 @@
+ @include rendition.texi
+ 
+ @ifinfo
+-@dircategory System Administration Utilities
++@dircategory Miscellaneous:
+ @direntry
+-* rush: (rush).              A restricted user shell.
+-* rushwho: (rush)Rushwho.    Show who is using GNU Rush currently.
+-* rushlast: (rush)Rushlast.  Show listing of recent GNU Rush sessions.
++* rush: (rush).				A restricted user shell
++* rushwho: (rush)Rushwho.		Show who is using GNU Rush currently
++* rushlast: (rush)Rushlast.		Show listing of recent GNU Rush sessions
+ @end direntry
+ @end ifinfo
+ 
