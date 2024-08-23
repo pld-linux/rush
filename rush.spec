@@ -1,19 +1,19 @@
 Summary:	Restricted user shell
 Summary(pl.UTF-8):	Powłoka z ograniczeniami
 Name:		rush
-Version:	2.2
+Version:	2.4
 Release:	1
 License:	GPL v3+
 Group:		Applications/Shells
 Source0:	https://ftp.gnu.org/gnu/rush/%{name}-%{version}.tar.xz
-# Source0-md5:	8acf915dd6354fd2ff2294faf368adc4
+# Source0-md5:	708e5baa4fa72a1aebefd0952b5d889f
 Patch0:		%{name}-info.patch
 URL:		http://www.gnu.org/software/rush/
-BuildRequires:	autoconf >= 2.64
-BuildRequires:	automake >= 1:1.15
+BuildRequires:	autoconf >= 2.71
+BuildRequires:	automake >= 1:1.16.5
 BuildRequires:	bison
 BuildRequires:	flex
-BuildRequires:	gettext-tools >= 0.18
+BuildRequires:	gettext-tools >= 0.19
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	texinfo
 BuildRequires:	xz
